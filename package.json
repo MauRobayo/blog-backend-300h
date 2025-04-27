@@ -1,4 +1,6 @@
 {
+  
+  
   "name": "blog-backend-300h",
   "version": "1.0.0",
   "description": "",
@@ -11,7 +13,7 @@
     "url": "git+https://github.com/MauRobayo/blog-backend-300h.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mauricio Robayo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MauRobayo/blog-backend-300h/issues"
