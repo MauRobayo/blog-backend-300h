@@ -1,0 +1,17 @@
+<div class="posts-container">
+  <h1>Posts de Café Andino</h1>
+
+  <button class="crear-post-btn" (click)="crearPost()">Crear Nuevo Post</button>
+
+  <div *ngIf="posts.length === 0" class="no-posts">
+    <img src="https://cdn-icons-png.flaticon.com/512/4076/4076507.png" alt="No posts" width="150">
+    <p>No hay posts aún. ¡Crea uno!</p>
+  </div>
+
+  <div *ngFor="let post of posts; let i = index" class="post-card">
+    <h2>{{ post.titulo }}</h2>
+    <p>{{ post.contenido }}</p>
+    <small><em>{{ formatearFecha(post.fecha) }}</em></small>
+    <button class="eliminar-btn" (click)="eliminarPost(i)">Eliminar</button>
+  </div>
+</div>

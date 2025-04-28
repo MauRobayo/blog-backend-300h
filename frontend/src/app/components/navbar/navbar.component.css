@@ -1,0 +1,71 @@
+.navbar {
+    background-color: #6F4E37; /* Marrón cálido tipo café */
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Sombra más suave y elegante */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-logo:hover {
+    color: #FFD700; /* Dorado al pasar el mouse */
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-btn {
+    background-color: #fff;
+    color: #6F4E37;
+    border: 2px solid #6F4E37;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px; /* Botones redondeados */
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-btn:hover {
+    background-color: #6F4E37;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .logout {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    color: #fff;
+  }
+  .logout:hover {
+    background-color: #c9302c;
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px rgba(217, 83, 79, 0.6); /* Agrega un glow rojo suave */
+  }
+  
+  
+
+a.nav-btn {
+  text-decoration: none !important;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
